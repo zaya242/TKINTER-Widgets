@@ -5,6 +5,8 @@ window=Tk()
 window.title("TKinter image")
 
 upload=Image.open("img1.jpg")
+upload=Image.open("img2.jpg")
+
 image=ImageTk.PhotoImage(upload)
 
 label=Label(master=window,image=image)
